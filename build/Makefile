@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /media/ahmed/6512869f-ce69-458d-b7d3-5e27ce84335d/ahmed/projects/LIDAR-PCL
+CMAKE_SOURCE_DIR = /home/ahmed/LIDAR-PCL
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /media/ahmed/6512869f-ce69-458d-b7d3-5e27ce84335d/ahmed/projects/LIDAR-PCL/build
+CMAKE_BINARY_DIR = /home/ahmed/LIDAR-PCL/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -80,9 +80,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /media/ahmed/6512869f-ce69-458d-b7d3-5e27ce84335d/ahmed/projects/LIDAR-PCL/build/CMakeFiles /media/ahmed/6512869f-ce69-458d-b7d3-5e27ce84335d/ahmed/projects/LIDAR-PCL/build/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ahmed/LIDAR-PCL/build/CMakeFiles /home/ahmed/LIDAR-PCL/build/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /media/ahmed/6512869f-ce69-458d-b7d3-5e27ce84335d/ahmed/projects/LIDAR-PCL/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ahmed/LIDAR-PCL/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target

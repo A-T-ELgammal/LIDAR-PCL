@@ -1,4 +1,4 @@
-# Install script for directory: /media/ahmed/6512869f-ce69-458d-b7d3-5e27ce84335d/ahmed/projects/LIDAR-PCL
+# Install script for directory: /home/ahmed/LIDAR-PCL
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -45,5 +45,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/media/ahmed/6512869f-ce69-458d-b7d3-5e27ce84335d/ahmed/projects/LIDAR-PCL/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/ahmed/LIDAR-PCL/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

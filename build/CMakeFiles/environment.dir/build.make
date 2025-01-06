@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /media/ahmed/6512869f-ce69-458d-b7d3-5e27ce84335d/ahmed/projects/LIDAR-PCL
+CMAKE_SOURCE_DIR = /home/ahmed/LIDAR-PCL
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /media/ahmed/6512869f-ce69-458d-b7d3-5e27ce84335d/ahmed/projects/LIDAR-PCL/build
+CMAKE_BINARY_DIR = /home/ahmed/LIDAR-PCL/build
 
 # Include any dependencies generated for this target.
 include CMakeFiles/environment.dir/depend.make
@@ -59,42 +59,42 @@ include CMakeFiles/environment.dir/flags.make
 
 CMakeFiles/environment.dir/src/environment.cpp.o: CMakeFiles/environment.dir/flags.make
 CMakeFiles/environment.dir/src/environment.cpp.o: ../src/environment.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/media/ahmed/6512869f-ce69-458d-b7d3-5e27ce84335d/ahmed/projects/LIDAR-PCL/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/environment.dir/src/environment.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/environment.dir/src/environment.cpp.o -c /media/ahmed/6512869f-ce69-458d-b7d3-5e27ce84335d/ahmed/projects/LIDAR-PCL/src/environment.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ahmed/LIDAR-PCL/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/environment.dir/src/environment.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/environment.dir/src/environment.cpp.o -c /home/ahmed/LIDAR-PCL/src/environment.cpp
 
 CMakeFiles/environment.dir/src/environment.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/environment.dir/src/environment.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /media/ahmed/6512869f-ce69-458d-b7d3-5e27ce84335d/ahmed/projects/LIDAR-PCL/src/environment.cpp > CMakeFiles/environment.dir/src/environment.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ahmed/LIDAR-PCL/src/environment.cpp > CMakeFiles/environment.dir/src/environment.cpp.i
 
 CMakeFiles/environment.dir/src/environment.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/environment.dir/src/environment.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /media/ahmed/6512869f-ce69-458d-b7d3-5e27ce84335d/ahmed/projects/LIDAR-PCL/src/environment.cpp -o CMakeFiles/environment.dir/src/environment.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ahmed/LIDAR-PCL/src/environment.cpp -o CMakeFiles/environment.dir/src/environment.cpp.s
 
 CMakeFiles/environment.dir/src/render/render.cpp.o: CMakeFiles/environment.dir/flags.make
 CMakeFiles/environment.dir/src/render/render.cpp.o: ../src/render/render.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/media/ahmed/6512869f-ce69-458d-b7d3-5e27ce84335d/ahmed/projects/LIDAR-PCL/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/environment.dir/src/render/render.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/environment.dir/src/render/render.cpp.o -c /media/ahmed/6512869f-ce69-458d-b7d3-5e27ce84335d/ahmed/projects/LIDAR-PCL/src/render/render.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ahmed/LIDAR-PCL/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/environment.dir/src/render/render.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/environment.dir/src/render/render.cpp.o -c /home/ahmed/LIDAR-PCL/src/render/render.cpp
 
 CMakeFiles/environment.dir/src/render/render.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/environment.dir/src/render/render.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /media/ahmed/6512869f-ce69-458d-b7d3-5e27ce84335d/ahmed/projects/LIDAR-PCL/src/render/render.cpp > CMakeFiles/environment.dir/src/render/render.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ahmed/LIDAR-PCL/src/render/render.cpp > CMakeFiles/environment.dir/src/render/render.cpp.i
 
 CMakeFiles/environment.dir/src/render/render.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/environment.dir/src/render/render.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /media/ahmed/6512869f-ce69-458d-b7d3-5e27ce84335d/ahmed/projects/LIDAR-PCL/src/render/render.cpp -o CMakeFiles/environment.dir/src/render/render.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ahmed/LIDAR-PCL/src/render/render.cpp -o CMakeFiles/environment.dir/src/render/render.cpp.s
 
 CMakeFiles/environment.dir/src/processPointClouds.cpp.o: CMakeFiles/environment.dir/flags.make
 CMakeFiles/environment.dir/src/processPointClouds.cpp.o: ../src/processPointClouds.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/media/ahmed/6512869f-ce69-458d-b7d3-5e27ce84335d/ahmed/projects/LIDAR-PCL/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/environment.dir/src/processPointClouds.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/environment.dir/src/processPointClouds.cpp.o -c /media/ahmed/6512869f-ce69-458d-b7d3-5e27ce84335d/ahmed/projects/LIDAR-PCL/src/processPointClouds.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ahmed/LIDAR-PCL/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/environment.dir/src/processPointClouds.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/environment.dir/src/processPointClouds.cpp.o -c /home/ahmed/LIDAR-PCL/src/processPointClouds.cpp
 
 CMakeFiles/environment.dir/src/processPointClouds.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/environment.dir/src/processPointClouds.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /media/ahmed/6512869f-ce69-458d-b7d3-5e27ce84335d/ahmed/projects/LIDAR-PCL/src/processPointClouds.cpp > CMakeFiles/environment.dir/src/processPointClouds.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ahmed/LIDAR-PCL/src/processPointClouds.cpp > CMakeFiles/environment.dir/src/processPointClouds.cpp.i
 
 CMakeFiles/environment.dir/src/processPointClouds.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/environment.dir/src/processPointClouds.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /media/ahmed/6512869f-ce69-458d-b7d3-5e27ce84335d/ahmed/projects/LIDAR-PCL/src/processPointClouds.cpp -o CMakeFiles/environment.dir/src/processPointClouds.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ahmed/LIDAR-PCL/src/processPointClouds.cpp -o CMakeFiles/environment.dir/src/processPointClouds.cpp.s
 
 # Object files for target environment
 environment_OBJECTS = \
@@ -201,7 +201,7 @@ environment: /usr/lib/x86_64-linux-gnu/libX11.so
 environment: /usr/lib/x86_64-linux-gnu/libXext.so
 environment: /usr/lib/x86_64-linux-gnu/libXt.so
 environment: CMakeFiles/environment.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/media/ahmed/6512869f-ce69-458d-b7d3-5e27ce84335d/ahmed/projects/LIDAR-PCL/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable environment"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/ahmed/LIDAR-PCL/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable environment"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/environment.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -214,6 +214,6 @@ CMakeFiles/environment.dir/clean:
 .PHONY : CMakeFiles/environment.dir/clean
 
 CMakeFiles/environment.dir/depend:
-	cd /media/ahmed/6512869f-ce69-458d-b7d3-5e27ce84335d/ahmed/projects/LIDAR-PCL/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /media/ahmed/6512869f-ce69-458d-b7d3-5e27ce84335d/ahmed/projects/LIDAR-PCL /media/ahmed/6512869f-ce69-458d-b7d3-5e27ce84335d/ahmed/projects/LIDAR-PCL /media/ahmed/6512869f-ce69-458d-b7d3-5e27ce84335d/ahmed/projects/LIDAR-PCL/build /media/ahmed/6512869f-ce69-458d-b7d3-5e27ce84335d/ahmed/projects/LIDAR-PCL/build /media/ahmed/6512869f-ce69-458d-b7d3-5e27ce84335d/ahmed/projects/LIDAR-PCL/build/CMakeFiles/environment.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/ahmed/LIDAR-PCL/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ahmed/LIDAR-PCL /home/ahmed/LIDAR-PCL /home/ahmed/LIDAR-PCL/build /home/ahmed/LIDAR-PCL/build /home/ahmed/LIDAR-PCL/build/CMakeFiles/environment.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/environment.dir/depend
 
