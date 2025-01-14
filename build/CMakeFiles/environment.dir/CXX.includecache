@@ -11,6 +11,8 @@ sensors/lidar.h
 /home/ahmed/LIDAR-PCL/src/sensors/lidar.h
 render/render.h
 /home/ahmed/LIDAR-PCL/src/render/render.h
+memory
+-
 processPointClouds.h
 /home/ahmed/LIDAR-PCL/src/processPointClouds.h
 processPointClouds.cpp

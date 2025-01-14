@@ -4,6 +4,7 @@
 
 #include "sensors/lidar.h"
 #include "render/render.h"
+#include <memory>
 #include "processPointClouds.h"
 // using templates for processPointClouds so also include .cpp to help linker
 #include "processPointClouds.cpp"
@@ -49,11 +50,12 @@ void simpleHighway(pcl::visualization::PCLVisualizer::Ptr &viewer)
 
     // TODO:: Create point processor
 
-    ProcessPointClouds<pcl::PointXYZ> *processPC = new ProcessPointClouds<pcl::PointXYZ>();
-
+    std::unique_ptr<ProcessPointClouds<pcl::PointXYZ>> pointProcessor = std::make_unique<ProcessPointClouds<pcl::PointXYZ>>();
     // renderRays(viewer, lidar->position, pointCloud);
     pcl::PointCloud<pcl::PointXYZ>::Ptr pointCloud = lidar->scan();
     renderPointCloud(viewer, pointCloud, "x1", {255, 15, 15});
+    delete lidar;
+    lidar = nullptr;
 }
 
 // setAngle: SWITCH CAMERA ANGLE {XY, TopDown, Side, FPS}
